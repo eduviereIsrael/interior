@@ -1,0 +1,54 @@
+.Booking-Plans {
+    background-color: #4D524B;
+    /* height: 60vh; */
+    color: #fff;
+}
+
+.inner-booking-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: blue; */
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 60px;
+    width: 100%;
+}
+
+
+
+.plan-card {
+    color: #000;
+    background-color: #fff;
+    padding: 30px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 970px) {
+    .plans {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .plan-card {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+}
+
+.plan-card .features {
+    padding: 30px 0;
+    
+}

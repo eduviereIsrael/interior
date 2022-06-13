@@ -1,0 +1,22 @@
+.about-content {
+  width: 50%;
+  background-color: #4D524B;
+  color: #fff;
+  margin-top: 100px;
+}
+
+
+.about-content h1{
+  margin: 40px 0;
+}
+
+.about-content h6{
+  margin: 20px 0;
+}
+
+.about-content p{
+  width: 60%;
+}
+
+
+
